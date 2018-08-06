@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 1</title>
+	<meta>
+	<style>
+       *{
+       	box-sizing: border-box;
+       	margin: 0;
+       	padding: 0;
+        }
+        h1{
+        	margin-bottom: 15px;
+        	text-align: center;
+        	padding: 30px;
+        	margin: 30px;
+
+        }
+        p{
+
+        	width:95%;
+        	height:200px;
+        	margin-right: auto;
+        	margin-left: auto;
+        	border: 1px solid black;
+        	background-color: orange;
+        	font-size: 120%;
+        }	        
+        #pizza{
+        	position: absolute;
+        	left: 587px;
+        	border: 1px solid black;
+        	font-size: 190%;
+        	font-weight: bold;
+            background-color:   #E9967A;
+        	
+        }
+       #burger{
+
+             position: absolute;
+        	left: 1245px;
+        	border: 1px solid black;
+        	font-size: 180%;
+            background-color:   #808000;
+        }
+        #hotdog{
+        	position: absolute;
+        	left: 1917px;
+        	border: 1px solid black;
+        	font-size: 180%;
+            background-color: #DEB887;
+
+        }
+
+        .row{
+        	width: 100%;
+        }
+        @media(min-width:992px){
+        	.col-lg-1, .col-lg-2, .col-lg-3{
+        		float: left;
+        	}
+        	.col-lg-1{
+        		width: 33.33%;
+        	}
+        	.col-lg-2{
+        		width: 66.66%;
+        	}
+        	.col-lg-3{
+        		width: 99.99%;
+        	}
+        }
+        @media(min-width: 768px) and (max-width: 991px){
+        	.col-md-1, .col-md-2, .col-md-3{
+        		float: left;
+        	}
+        	.col-md-1{
+        		width: 33.33%;
+        	}
+        	.col-md-2{
+        		width: 66.66%;
+        	}
+        	.col-md-3{
+        		width: 99.99%;
+        	}
+        }
+        @media(max-width: 767px){
+        	.col-lg-1, .col-lg-2, .col-lg-3{
+        		float: left;
+        		border: 1px solid black;
+        	}
+        	.col-lg-1{
+        		width: 33.33%;
+        	}
+        	.col-lg-2{
+        		width: 66.66%;
+        	}
+        	.col-lg-3{
+        		width: 99.99%;
+        	}	
+        }
+    </style>
+</head>
+<body>
+	<h1>OUR MENU</h1>
+	<div class="row">
+	<section>
+		<div class="col-lg-1 col-md-2">
+			<div id="pizza">pizza</div>
+			<p><br><br><br>     If you make a “mini-pizza” at home – replacing the crust with, say, toast or pitas – then you can't call it a pizza. If you order a pizza without the cheese, then you no longer have a pizza in your hands. ... In order for something to be called a pizza, it must have dough, tomato sauce and cheese.</p></div>
+	</section>
+	<section>
+		<div class="col-lg-1 col-md-2">
+            <div id="burger"><h4>burger</h4></div>
+			<p><br><br><br>A hamburger, beefburger or burger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, or flame broiled. Hamburgers are often served with cheese, lettuce, tomato, bacon, onion, pickles, or chillies.</p></div>
+	</section>
+	<section>		
+		<div class="col-lg-1 col-md-2">
+            <div id="hotdog"><h4>hotdog</h4></div>
+			<p><br><br><br>A hot dog (also spelled hotdog), also known as a frankfurter (sometimes shortened to frank), dog, or wiener, is a cooked sausage, traditionally grilled or steamed and served in a partially sliced bun. Hot dog variants include the corn dog and pig in a blanket. </p></div>
+	</section>
+	</div>
+</body>
+</html>		
