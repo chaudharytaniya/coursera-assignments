@@ -2,4 +2,3 @@ The stlye sheet should be seprate and moreover, index.html should be at the root
 
 
 -Ryan Dsouza 
-twitter: @Ryan_dsouza320
